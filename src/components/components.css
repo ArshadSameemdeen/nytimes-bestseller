@@ -1,0 +1,46 @@
+.Books {
+  font-family: "Poppins", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.container {
+  display: flex;
+}
+.image {
+  max-height: 200px;
+  max-width: 100px;
+  box-shadow: 3px 3px 8px 0 #333;
+}
+.list {
+  margin-top: -27px;
+  margin-left: 20px;
+}
+.author {
+  color: #748a9d;
+}
+.description {
+  /* font-weight: bold; */
+}
+.about {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+button {
+  background-color: black;
+  color: #eee;
+  border-color: black;
+  height: 30px;
+  width: 150px !important;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #eee;
+  color: black;
+  border-color: #eee;
+  font-weight: bold;
+  cursor: pointer;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
